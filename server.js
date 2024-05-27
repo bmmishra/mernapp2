@@ -28,12 +28,14 @@ console.log(__dirname)
 
 app.use(express.static(path.join(__dirname,'/client/build')))
 
-app.get("*", (req, res) => res.sendFile(path.join(__dirname, '/client/build/index.html')));
+
 
 
 // Routes
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/product", productRoutes)
+
+app.get("*", (req, res) => res.sendFile(path.join(__dirname, '/client/build/index.html')));
 
 
 // Add routes for user registration, property listing, etc.
