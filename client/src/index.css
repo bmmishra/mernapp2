@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px rgb(7, 121, 220);
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid rgb(15, 214, 28) !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  margin-right: 8px;
+}
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #434343,
+      #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
